@@ -1,0 +1,13 @@
+{
+  "LABEL": {
+    "name": "Title FAILED formatting",
+    "color": "ba1414"
+  },
+  "CHECKS": {
+    "regexp": "^(feat|fix|tweak|build)\[([A-Z]+\-[0-9]+)\|(.*)\]\:.* ]];",
+    "ignoreLabels": [
+      "dont-check-PRs-with-this-label",
+      "meta"
+    ]
+  }
+}
