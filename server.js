@@ -5,6 +5,7 @@ const debug = require('debug')('tetrys:server')
 const server = express()
 const folder = path.resolve('./dist')
 debug('booting web application server')
+debug('booting web s server')
 
 module.exports = () =>
 	server
